@@ -6,7 +6,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? '/demo/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/choice-helper/' : '/',
   plugins: [
     react(),
     miaodaDevPlugin(),
